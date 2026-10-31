@@ -1,0 +1,2 @@
+,num_frames,mota,motp,idf1,mostly_tracked,mostly_lost,num_false_positives,num_misses,num_switches,num_fragmentations,precision,recall
+0000.txt,60,0.9277777777777778,0.032520332508232386,0.9629629629629629,3,0,2,11,0,6,0.9883040935672515,0.9388888888888889

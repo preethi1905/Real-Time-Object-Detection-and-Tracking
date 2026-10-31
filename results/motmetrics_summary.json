@@ -1,0 +1,16 @@
+{
+    "0000.txt":{
+        "num_frames":60,
+        "mota":0.9277777778,
+        "motp":0.0325203325,
+        "idf1":0.962962963,
+        "mostly_tracked":3,
+        "mostly_lost":0,
+        "num_false_positives":2,
+        "num_misses":11,
+        "num_switches":0,
+        "num_fragmentations":6,
+        "precision":0.9883040936,
+        "recall":0.9388888889
+    }
+}

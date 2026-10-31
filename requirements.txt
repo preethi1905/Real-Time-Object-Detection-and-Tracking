@@ -1,0 +1,16 @@
+# Core Computer Vision & Deep Learning
+ultralytics>=8.0.0
+opencv-python>=4.7.0
+numpy>=1.22.0
+scipy>=1.9.0
+
+# ONNX Inference & Export
+onnx>=1.14.0
+onnxruntime>=1.15.0
+
+# Multiple Object Tracking Evaluation
+motmetrics>=1.4.0
+matplotlib>=3.7.0
+pandas>=1.5.0
+tqdm>=4.65.0
+pyyaml>=6.0
