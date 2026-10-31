@@ -321,23 +321,7 @@ To build the C++ package:
 ```bash
 colcon build --packages-select kitti_tracking_cpp
 ros2 run kitti_tracking_cpp cpp_tracker_node
-```
 
----
-
-## Resume Bullet Points (Copy & Paste)
-
-### Option A: Robotics & Autonomous Systems Focus
-> - Engineered an autonomous driving perception pipeline in **ROS 2 Humble**, integrating a fine-tuned **YOLOv8** detector with a from-scratch 7-state **Kalman Filter** and Hungarian data association tracker on the **KITTI** dataset.
-> - Attained **92.8% MOTA**, **96.3% IDF1**, and **0 ID switches** across benchmark tracking sequences, maintaining continuous kinematic tracking through multi-frame sensor occlusions with $<1.8\text{ px}$ bounded error.
-> - Optimized deployment throughput from **48 FPS to 85 FPS (1.75x speedup)** by exporting to **ONNX Runtime**, and authored a zero-allocation **C++ (Eigen/rclcpp)** tracking node for low-latency robotics execution.
-
-### Option B: Computer Vision & Edge AI Focus
-> - Built a real-time 3-class object detection and tracking system (**Car, Pedestrian, Cyclist**) on **KITTI 2D Detection & Tracking** benchmarks utilizing **ROS 2**, **PyTorch**, and **Ultralytics YOLOv8**.
-> - Fine-tuned detector to **89.4% mAP@0.5** (94.1% Car AP) and designed a custom SORT multi-object tracker evaluating state covariance dynamics under detector failure modes.
-> - Benchmarked inference latency across 200 frames, profiling PyTorch vs. ONNX Runtime execution providers and achieving real-time 85+ FPS throughput on edge compute profiles.
-
----
 
 ## License
 This project is open-source under the [MIT License](LICENSE).
